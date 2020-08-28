@@ -1,0 +1,121 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.my_border_1{
+	border: 1px solid #eee;
+}
+.my_border_2{
+	width: 15%;
+	margin: 0 auto;
+	border-bottom: 3px solid #D9232E;
+}
+
+
+.my_bg{
+background-color: #f3f3f3;
+}
+/* 第三部分 */
+.btn-outline-light {
+  color: #000;
+  /* background-color: #fff; */
+  border-color: #ccc;
+}
+.btn-outline-light:hover{
+	background-color: transparent;
+	border-color: #000;
+}
+.btn-outline-light.active{
+	background-color: #d9232e !important;
+	font-weight: bold !important;
+	color: #fff !important; 
+}
+.btn-outline-light:focus{
+	background-color: #d9232e !important;
+	font-weight: bold !important;
+	color: #fff !important; 
+}
+
+/* @media (min-width:1200px) {
+	.my_div{width: 380px;}
+} */
+.my_div{
+	/* width: 300px; */
+	/* height: 9.375rem; */
+	border:  1px solid #eee;
+	margin-bottom: 7px;
+	padding: 20px;
+}
+.my_div hr{
+	width: 40px;height: 3px;
+	background-color: red;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+/* 第四部分大图 */
+.four{
+	position: relative;
+	bottom: 50px;
+}
+/* .four>img{
+	position: absolute;
+} */
+.four>div{
+	position: absolute;
+	width: 400px;
+	top: 40px; left: 40px;
+}
+.four_1 img:hover{
+	background-color: #D9232E;
+}
+
+	.four_1 div:first-child{
+		font-size:40px ;
+		color: #ccc;
+		margin-bottom: 30px;
+	}
+	.four_1 div:nth-child(2){
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.four_1 div:nth-child(3),
+	.four_1 div:last-child{
+		font-size: 12px;
+	}
+	.four>div>img{
+		margin-top: 30px;
+	}
+
+.foot_hr{
+	height: 2px;
+	background-color: #000000;
+}
+@media  (min-width:576px) and (max-width:992px) {
+	/* 第三部分 */
+	.my_div{width: 100%;}
+		/* 第四部分 */
+		.four_1 div:first-child{
+			font-size:26px ;
+			margin-bottom: 11px;
+		}
+		.four_1 div:nth-child(2){
+			font-size: 22px;
+			margin-bottom: 12px;
+		}
+		.four_1 div:nth-child(3),
+		.four_1 div:last-child{
+			font-size: 9px;
+		}
+		.four_1>img{
+			margin-top: 15px;
+		}
+}
+@media (min-width:992px) {
+	/* 第三部分 */
+	.my_div{width: 32%;}
+	
+}
+
+

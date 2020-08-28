@@ -1,0 +1,213 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index1.css"/>
+		<style type="text/css">
+			.foot_hr{
+				height: 2px;
+				background-color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 d-sm-none d-lg-block border-top border-danger"></div>
+			</div>
+			<!-- 头部logo -->
+			
+			<div class="navbar navbar-dark  navbar-expand-lg">
+				<!-- 1.永远显示的logo -->
+				<a class="navbar-brand" href="#">
+					<img src="image/logo.png" >
+					</a>
+				<!-- 2.小屏显示，大屏隐藏的按钮 -->
+				<div class="">
+					<button data-toggle="collapse" data-target="#demo" class="navbar-toggler">
+					<span class="mr-2"><img src="image/ph_nav.png" ></span>
+				</button>
+				<button data-toggle="modal" data-target="#sou" class="navbar-toggler">
+					<span class="mr-2"><img src="image/blacksearch.png" ></span>
+				</button>
+				<button data-toggle="collapse" data-target="" class="navbar-toggler">
+					<span id="dq"><img src="image/world.png" ></span>
+				</button>
+				</div>
+				
+				<!-- 3.折叠的内容div.collapse>ul>li>a -->
+				<div id="demo" class="collapse navbar-collapse ">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class="nav-link" href="index1.html">首页</a></li>
+						<li class="nav-item"><a class="nav-link" href="">品牌</a></li>
+						<li class="nav-item"><a class="nav-link" href="">产品</a></li>
+						<li class="nav-item"><a class="nav-link" href="">新闻</a></li>
+						<li class="nav-item"><a class="nav-link" href="">店铺</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">联系</a></li>
+						<li class="nav-item"><a class="nav-link" href="">招聘</a></li>
+					</ul>
+							<div id="zt" class="dropdown d-md-none d-lg-block">
+								<span>简体</span>
+								<button data-toggle="dropdown"><img src="image/rednext.png" ></button>
+								<ul class="dropdown-menu">
+									<li><a href="">繁体</a></li>
+									<li><a href="">英文</a></li>
+									<li><a href="">日文</a></li>
+								</ul>
+							</div>
+						
+							<!-- 搜索按钮 -->
+							<div class="sou">
+								<button class="d-md-none d-lg-block" data-toggle="modal" data-target="#s1"><img src="image/garysearch.png" ></button>
+								<div id="s1" class="modal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body">
+												<input class="w-75 form-control rounded-0 bg-light" type="text" placeholder="请输入搜索关键词"/>
+												<button class="btn btn-danger rounded-0 w-25">搜索</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+			
+			<!-- 第二部分 -->
+			<hr>
+			<div class="row no-gutters mt-5 mb-4 d-flex justify-content-around">
+				<div class="col text-center col-2 ">
+					<a class="btn btn-danger rounded-0" href="">
+							<img src="image/newnav2_h.png" >
+							<span class="font_small ml-2 mr-4 ">集团咨询</span>
+							<img src="image/whiten.png" >
+					</a>
+				</div>
+				<div class="col text-center col-2">
+					<a class="btn btn-danger rounded-0" href="">
+							<img src="image/newnav2_h.png" >
+							<span class="font_small ml-2 mr-4 ">集团咨询</span>
+							<img src="image/whiten.png" >
+					</a>
+				</div>
+				<div class="col text-center col-2" >
+					<a class="btn btn-danger rounded-0" href="">
+							<img src="image/newnav2_h.png" >
+							<span class="font_small ml-2 mr-4 ">集团咨询</span>
+							<img src="image/whiten.png" >
+					</a>
+				</div>
+			</div>
+			
+			<!-- 新闻 -->
+			<div class="foot">
+				
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-12 mb-5">
+						<a class="text-dark" href="#">
+							<img class="w-100" src="image/4(1).jpg" >
+							<div class=" h5 font-weight-bold text-truncate mt-3">
+								马耳他总理赞扬名创优品疫情期间逆势扩张
+							</div>
+							<div class="font_small text-muted my-2">
+								<img src="image/clock.png" >
+									<span>2009.01.05</span>
+							</div>
+							<div class="font_small text-muted">
+								7月29日，名创优品在欧洲国家马耳他的首家门店于首都瓦莱塔开业，马耳他总理罗伯特·阿贝拉（Robert Abela）亲临现场并致辞祝贺.
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- 底部按钮 -->
+				<div class="text-center mb-5">
+					<a href="">
+						<img src="image/exmore.png" >
+					</a>
+				</div>
+			</div>
+			<hr class="foot_hr">
+			<p class="font_small text-muted my-5">© COPYRIGHT 2018 MINISO名创优品版权所有  粤ICP备15008399号</p>
+		</div>
+	</body>
+</html>
